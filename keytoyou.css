@@ -11,8 +11,8 @@ html {
 }
 
 .arrow {
-   height: 10px;
-   width: 30px;
+   height: 2px;
+   width: 10px;
    position: relative;
    bottom: 0;
    float: right;
