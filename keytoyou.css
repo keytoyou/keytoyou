@@ -11,9 +11,10 @@ html {
 }
 
 .arrow {
+   height: 10px;
+   width: 30px:
    position: relative;
    bottom: 0;
    float: right;
-   z-index:2;
 }
 
