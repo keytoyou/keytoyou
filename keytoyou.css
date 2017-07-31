@@ -9,3 +9,7 @@ html {
     display: block;
     margin: auto;
 }
+
+arrow {
+    float: "right";
+}
