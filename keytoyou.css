@@ -15,6 +15,6 @@ html {
    position: relative;
    bottom: 0;
    float: right;
-   z-index:100
+   z-index:2;
 }
 
