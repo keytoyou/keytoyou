@@ -1,4 +1,3 @@
-
 html {
     height: 100%;
     width: 100%;
@@ -9,7 +8,6 @@ html {
     display: block;
     margin: auto;
 }
-
 .og {
     height: 100%;
     width: 100%;
@@ -32,4 +30,36 @@ html {
 h1 {
   color: white;
   font-family: Optima;
+}
+
+#row1 {
+  
+}
+
+#anger {
+
+}
+
+#fear {
+
+}
+
+#happy {
+
+}
+
+#row2 {
+
+}
+
+#lost {
+
+}
+
+#sad {
+
+}
+
+#stressed {
+
 }
