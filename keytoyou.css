@@ -11,7 +11,7 @@ html {
 }
 
 .arrow {
-    position: fixed;
-    right: 0;
-    bottom: 0;
+   position: relative;
+   bottom: 0;
+   float: right;
 }
