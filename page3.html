@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
 
+<h2>My First Web Page</h2>
+<p>My first paragraph.</p>
+
+<script>
+var quotes = ["This", "is", "a", "sample"];
+var generateQuote = function() {
+  var currentQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  return currentQuote;
+};
+document.write(generateQuote());
+</script>
+
+</body>
+</html> 
