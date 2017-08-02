@@ -60,8 +60,33 @@ div.desc {
     text-align: center;
 }
 
+#anger {
+  float: left;
+}
+
+#fear {
+    float: center;
+}
+
+#happy {
+  float: right;
+
+}
+
 #row2 {
   width: 70%;
   padding: 5%;
   height: 10%;
+}
+
+#lost {
+  float: left;
+}
+
+#sad {
+  float: center;
+}
+
+#stressed {
+  float: right;
 }
