@@ -139,11 +139,11 @@ div.desc {
   color: black;
   background-color: gray;
   width:60%;
-  height:70%;
+  height:50%;
   position:absolute;
   left:50%;
   top:50%;
-  margin:-7% 0 0 -45%;
+  margin:-10% 0 0 -30%;
   background-color: #ffffff;
   opacity: 0.6;
   filter: alpha(opacity=60);
