@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="angerpage">
+
+<head>
+  <link rel="stylesheet" type="text/css" href = "keytoyou.css">
+</head>
+
+<body>
+  <header>
+      <a href="keytoyou.html">
+        <img src="logo.png" alt="Main" height=15% width=7.5% >
+      </a>
+      <div class="dropdown" style="float:right;">
+        <button class="dropbtn">&#9776;</button>
+        <div class="dropdown-content">
+          <a href="#about">About</a>
+          <a href="#purpose">Purpose</a>
+        </div>
+      </div>
+    </header>
+
+
+<div class="quote" style="display:flex;justify-content:center;align-items:center;">
+<center>
+<script>
+var quotes = [
+"Remain calm, serene, always in command of yourself. You will then find out how easy it is to get along - Paramahansa Yogananda",
+"For every minute you remain angry, you give up sixty seconds of peace of mind. -Ralph Waldo Emerson",
+"You will not be punished for your anger, you will be punished by your anger. -Buddha",
+"While seeking revenge, dig two graves - one for yourself. -Douglas Horton",
+"Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured. -Mark Twain",
+"Anger makes you smaller, while forgiveness forces you to grow beyond what you are. - Cherie Carter-Scott",
+"There are two things a person should never be angry at, what they can help, and what they cannot. - Plato",
+"Whate'ers begun in anger ends in shame. - Benjamin Franklin",
+"Anybody can become angry - that is easy, but to be angry with the right person and to the right degree and at the right time and for the right purpose, and in the right way - that is not within everybody's power and is not easy. - Aristotle",
+"It's a lot easier to be angry at someone than it is to tell them you're hurt. -Tom Gates",
+"The weak can never forgive. Forgiveness is the attribute of the strong. - Mahatma Gandhi",
+"Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that. -Martin Luther King Jr",
+"A quick temper will make a fool of you soon enough -Bruce Lee",
+"If you are patient in one moment of anger, you will escape a hundred days of sorrow. -Chinese proverb",
+"Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one getting burned. -Buddha",
+"The broad general rule is that a man is about as big as the things that make him angry. -Unknown",
+"The intoxication of anger, like that of the grape, shows us to others, but hides us from ourselves. -Charles Caleb Colton",
+"When anger rises, think of the consequences. -Confucius",
+"The best remedy for a short temper is a long walk. -Joseph Joubert",
+"A man makes inferiors his superiors by heat; self-control is the rule. -Ralph Waldo Emerson",
+"Angry people want you to see how powerful they are... loving people want you to see how powerful You are. -Chief Red Eagle",
+]
+
+
+var generateQuote = function() {
+  var currentQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  return currentQuote;
+};
+
+document.write(generateQuote());
+</script>
+</center>
+
+
+
+</body>
+</html>
