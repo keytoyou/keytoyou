@@ -210,3 +210,11 @@ div.desc {
   background-size: 100% 100%;
   background-image: url("purple3.jpg");
 }
+
+.happypage {
+  height: 100%;
+  width: 100%;
+  background-image: url("cherryblossom.jpg");
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
