@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="landscape">
+<head>
+  <link rel="stylesheet" type="text/css" href = "keytoyou.css">
+  <header>
+  <a href="keytoyou.html">
+    <img src="logo.png" alt="Main" height=7.5% width=7.5% >
+  </a>
+  <div class="dropdown" style="float:right;">
+    <button class="dropbtn">&#9776;</button>
+    <div class="dropdown-content">
+      <a href="#about">About</a>
+      <a href="#purpose">Purpose</a>
+    </div>
+  </div>
+  </header>
+</head>
+<body>
+  <div class="quote" style="display:flex;justify-content:center;align-items:center;">
+  <center>
+    <script class="h2">
+    var quotes = ["Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning. -Albert Einstein",
+     "Only in the darkness can you see the stars.― Martin Luther King Jr.",
+     "You cannot swim for new horizons until you have courage to lose sight of the shore.― William Faulkner",
+     "There is some good in this world, and it's worth fighting for.― J.R.R. Tolkien",
+     "Look at the bright side.",
+     "Never give up hope.",
+     "Where there's life, there's hope",
+     "Faith and hope work hand in hand, however while hope focuses on the future, faith focuses on the now.-David Odunaiya",
+     "Hope is important because it can make the present moment less difficult to bear. If we believe that tomorrow will be better, we can bear a hardship today.-Thich Nhat Hanh",
+     "Walk on with hope in your heart, and you'll never walk alone -Shah Rukh Khan",
+     "Never give up. Expect only the best from life and take action to get it. -Catherine Pulsifer",
+     "Once you choose hope, anything's possible. -Christopher Reeve",
+     "Hope is some extraordinary spiritual grace that God gives us to control our fears, not to oust them. -Vincent McNabb",
+     "Fall seven times, stand up eight.",
+     "That which doesn’t kill us makes us stronger. –  Friedrich Nietzsche",
+     "It is never too late to be what you might have been. – George Eliot",
+     "What lies behind us and what lies before us are tiny matters compared to what lies within us. – Henry Stanley Haskins",
+      "Problems are not stop signs, they are guidelines. – Robert Schuller",
+       "The only way to have a friend is to be one. – Ralph Waldo Emerson",
+        "Enjoy the little things, for one day you may look back and realize they were the big things. – Robert Brault",
+        "Don’t go through life, grow through life. – Eric Butterworth",
+      "The difference between ordinary and extraordinary is that little extra. – Jimmy Johnson",
+  "Defeat is not bitter unless you swallow it. – Joe Clark"];
+    var generateQuote = function() {
+      var currentQuote = quotes[Math.floor(Math.random() * quotes.length)];
+      return currentQuote;
+    };
+    document.write(generateQuote());
+    </script>
+  </center>
+</div>
+</body>
+</html>
