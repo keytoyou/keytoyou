@@ -202,3 +202,11 @@ div.desc {
   background-repeat: repeat;
   background-size: 100% 100%;
 }    
+
+.purple3{
+  height: 100%;
+  width: 100%;
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  background-image: url("purple3.jpg");
+}
