@@ -26,6 +26,11 @@ h1 {
   color: white;
   font-family: Optima;
 }
+.landscape{
+  height: 100%;
+  width: 100%;
+  background-image: url("purple.jpg");
+}
 
 #row1 {
   width: 70%;
