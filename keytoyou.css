@@ -149,7 +149,7 @@ div.desc {
 }
 .quote a{
   display:block;
-  position: abosolute;
+  position: absolute;
   top:45%;
   left:10%;
 }
