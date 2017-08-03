@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="happypage">
+
+<head>
+  <link rel="stylesheet" type="text/css" href = "keytoyou.css">
+</head>
+
+<body>
+  <header>
+      <a href="keytoyou.html">
+        <img src="logo.png" alt="Main" height=15% width=7.5% >
+      </a>
+      <div class="dropdown" style="float:right;">
+        <button class="dropbtn">&#9776;</button>
+        <div class="dropdown-content">
+          <a href="#about">About</a>
+          <a href="#purpose">Purpose</a>
+        </div>
+      </div>
+    </header>
+
+
+<div class="quote" style="display:flex;justify-content:center;align-items:center;">
+<center>
+<script>
+var quotes = [
+"Joy does not simply happen to us. We have to choose joy and keep choosing it every day. -Henri J.M. Nouwen",
+"The joyful heart sees and reads the world with a sense of freedom and graciousness. -John O'Donohue",
+"Life is too short to be anything but happy. -Unknown",
+"And you've got a smile that could light up this whole town. -Taylor Swift",
+"Time you enjoy wasting is not wasted time. -Marthe Troly-Curtin",
+"Count your age by friends, not years. Count your life by smiles, not tears. -John Lennon",
+"Happiness is a warm puppy. -Charles M. Schulz",
+"Happiness [is] only real when shared. -Jon Krakauer",
+"A smile is happiness you'll find right under your nose. -Tom Wilson",
+"The best way to pay for a lovely moment is to enjoy it. -Richard Bach",
+"Every day is a new day, and you'll never be able to find happiness if you don't move on. -Carrie Underwood",
+"Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared. -Buddha",
+"Happiness doesn't depend on any external conditions, it is governed by our mental attitude. -Dale Carnegie",
+"The most simple things can bring the most happiness. -Izabella Scorupco",
+"Remember that the happiest people are not those getting more, but those giving more. -H. Jackson Brown Jr.",
+"True happiness is... to enjoy the present, without anxious dependence upon the future. -Lucius Annaeus Seneca",
+"If you want others to be happy, practice compassion. If you want to be happy, practice compassion. -Dalai Lama",
+"The moments of happiness we enjoy take us by surprise. It is not that we seize them, but that they seize us. -Ashley Montagu",
+"When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one that has been opened for us. -Helen Keller",
+"The foolish man seeks happiness in the distance, the wise grows it under his feet. -James Oppenheim"
+]
+
+
+var generateQuote = function() {
+  var currentQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  return currentQuote;
+};
+
+document.write(generateQuote());
+</script>
+</center>
+
+</body>
+</html>
