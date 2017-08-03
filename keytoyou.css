@@ -195,6 +195,12 @@ div.desc {
   background-image: url("purple2.jpg");
 }
     
-    
+.fearpage {
+  height: 100%;
+  width: 100%;
+  background-image: url("ocean.jpg");
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}    
     
     
