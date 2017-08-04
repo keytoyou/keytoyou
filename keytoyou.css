@@ -1,8 +1,37 @@
-h1 {
-  color: white;
-  font-family: 'Optima';
-  
+#rcorners1 {
+    border-radius: 5%;
+    background: LightBlue;
+    padding: 20px;
+    width: 200px;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
+#left {
+  float: left;
+  width: 22%;
+  overflow: hidden;
+}
+
+#right {
+  overflow: hidden;
+}
+
+
+
+h1,h2,h3{
+  color: white;
+  font-family: Optima;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: Optima;
+  text-align: left;
+}
+
 
 
 #logo {
