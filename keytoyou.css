@@ -39,7 +39,17 @@ p {
   text-align: left;
 }
 
+#rightthing {
+  margin-top: 2.7%;
+  margin-left: 2%;
+}
 
+#content {
+  margin-left: -1%;
+}
+#leftthing {
+  margin-left: -.25%;
+}
 
 #logo {
     display: block;
