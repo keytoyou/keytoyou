@@ -1,3 +1,9 @@
+.purposelook {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #4B0082 0%, #87cefa 100%)
+}
+
 #rcorners1 {
     border-radius: 5%;
     background: LightBlue;
