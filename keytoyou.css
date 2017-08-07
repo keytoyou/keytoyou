@@ -88,30 +88,20 @@ h1 {
 }
 
 #row1 {
-  width: 70%;
+  width: 80%;
   padding: 5%;
   margin: 0%;
   height: 10%;
+  top:30%;
 }
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+.leftDIV{
+width:28%; padding: 3%;
 }
-
-div.gallery:hover {
-    border: 1px solid #777;
+.middleDIV{
+ width:28%; padding: 3%;
 }
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
+.rightDIV{
+ width:28%; padding: 3%;
 }
 
 #anger {
@@ -128,9 +118,10 @@ div.desc {
 }
 
 #row2 {
-  width: 70%;
+  width: 80%;
   padding: 5%;
   height: 10%;
+  bottom:2%;
 }
 
 #lost {
